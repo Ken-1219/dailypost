@@ -108,21 +108,22 @@ a {
 }
 
 .app-logo {
-  object-fit: contain;
-  height: 100px;
-  width: 150px;
+  width: 200px;
+  margin-top: 10px;
   margin-right: 5px;
   cursor: pointer;
 }
 
 nav {
-  background-color: #a3cffa;
+  background-color: #8dc2f7;
+  height: fit-content;
   box-shadow: 0 0 4px rgb(144, 60, 255);
   position: fixed;
   top: 0;
   z-index: 99;
   left: 0;
   right: 0;
+  padding: 20px;
 }
 
 .main-nav {
@@ -136,7 +137,7 @@ nav {
   gap: 8px;
   position: absolute;
   right: 1%;
-  bottom: 0;
+  bottom: 2%;
 }
 
 .news-input {
